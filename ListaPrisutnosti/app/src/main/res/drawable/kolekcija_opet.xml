@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="403dp"
+    android:height="624dp"
+    android:viewportWidth="403"
+    android:viewportHeight="624">
+  <group>
+    <clip-path
+        android:pathData="M0,0h403v624h-403z"/>
+    <path
+        android:pathData="M0,0h403v623.59h-403z"
+        android:fillColor="#00FFFFFF"/>
+    <path
+        android:pathData="M214.4,-325.99 L382.17,-76.86 438.14,180.44 423.66,203.49C349.29,312.89 242.59,419.47 110.49,508.59 60.95,542.01 10.48,571.2 -40.07,596.1L-56.99,603.96 17.91,-252.94Z"
+        android:fillColor="#83087EDC"
+        android:fillType="evenOdd"/>
+    <path
+        android:pathData="M-30.82,-294.47 L382.18,-302.41 440.77,202.33 435.92,208.73C353.68,307.32 232.28,376.49 91.21,392.9 51.54,397.51 12.43,397.71 -25.59,393.89L-46.53,391.03Z"
+        android:fillColor="#99087EDC"
+        android:fillType="evenOdd"/>
+    <path
+        android:pathData="M-45.62,-300.06 L442.54,-302.72 439.55,200.41 398.71,215.23C327.82,238.32 249.23,253.65 166.04,259.06 103.65,263.11 43.1,261.3 -14.19,254.34L-47.13,249.28 -48.74,224.49Z"
+        android:fillColor="#2D087EDC"
+        android:fillType="evenOdd"/>
+    <path
+        android:pathData="M177.24,-543.45 L9.47,-294.32 -46.49,-37.02 -32.02,-13.98C42.35,95.43 149.05,202 281.15,291.13 330.69,324.55 381.16,353.74 431.71,378.64L448.63,386.5 373.73,-470.41Z"
+        android:fillColor="#70087EDC"
+        android:fillType="evenOdd"/>
+    <path
+        android:pathData="M423.98,-510.47 L10.98,-518.41 -47.61,-13.67 -42.77,-7.27C39.48,91.31 160.88,160.49 301.94,176.9 341.62,181.51 380.73,181.71 418.75,177.89L439.68,175.03Z"
+        android:fillColor="#27087EDC"
+        android:fillType="evenOdd"/>
+    <path
+        android:pathData="M440.8,-517.93 L-47.36,-520.59 -44.38,-17.46 -3.54,-2.64C67.35,20.45 145.94,35.78 229.13,41.19 291.52,45.24 352.07,43.43 409.36,36.47L442.3,31.41 443.91,6.62Z"
+        android:fillColor="#3B087EDC"
+        android:fillType="evenOdd"/>
+  </group>
+</vector>

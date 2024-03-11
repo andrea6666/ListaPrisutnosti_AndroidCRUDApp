@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_blue_wave_stylish"
+    tools:context=".LoginPage">
+
+
+
+
+    <TextView
+        android:id="@+id/signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Улогуј се"
+        android:fontFamily="@font/roboto"
+        android:textColor="#083552"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/signIn"
+        app:passwordToggleEnabled="true"
+        android:hint="Корисничко име"
+        app:hintTextColor="#083552"
+        android:textColorHint="#083552"
+
+        app:hintEnabled="true">
+    >
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signIn"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#34087EDC"
+        android:drawablePadding="20dp"
+        android:inputType="textVisiblePassword|textNoSuggestions"
+        android:drawableStart="@drawable/baseline_perm_identity_24"
+        android:fontFamily="@font/roboto"
+        android:padding="20dp"
+        android:textColor="#083552"
+         />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputylayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputylayout"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        app:hintTextColor="#083552"
+        android:textColorHint="#083552"
+        android:hint="Шифра"
+        app:hintEnabled="true" >
+    >
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputylayout2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#34087EDC"
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/baseline_vpn_key_24"
+        android:fontFamily="@font/roboto"
+        android:padding="20dp"
+        android:textColor="#083552"
+     />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputylayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#083552"
+        android:fontFamily="@font/roboto"
+        android:text="ПОТВРДИ" />
+
+    <Button
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"
+        android:text="Заборављена лозинка?"
+        android:textStyle="bold"
+        android:textColor="#083552"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto"
+        android:background="@drawable/transparent_background"/>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

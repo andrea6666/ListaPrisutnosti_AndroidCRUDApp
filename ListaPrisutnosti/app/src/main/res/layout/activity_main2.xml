@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity2view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_blue_wave_stylish"
+    tools:context=".MainActivity2">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint1"
+            android:layout_width="339dp"
+            android:layout_height="402dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp"
+            android:requiresFadingEdge="vertical"
+            app:layout_constraintTop_toBottomOf="parent">
+
+                <EditText
+                    android:id="@+id/rezultat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:paddingTop="20dp"
+                    android:text=""
+                    android:textColor="#083552" />
+
+                <EditText
+                    android:id="@+id/rezultat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#083552"
+                    app:layout_constraintTop_toBottomOf="@id/rezultat1"
+                    tools:layout_editor_absoluteX="34dp" />
+
+                <EditText
+                    android:id="@+id/rezultat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#083552"
+                    app:layout_constraintTop_toBottomOf="@+id/rezultat2" />
+
+                <EditText
+                    android:id="@+id/rezultat4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#083552"
+                    app:layout_constraintTop_toBottomOf="@+id/rezultat3" />
+                />
+
+                <EditText
+                    android:id="@+id/rezultat5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#083552"
+                    app:layout_constraintTop_toBottomOf="@+id/rezultat4" />
+
+                <EditText
+                    android:id="@+id/rezultat6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_background"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#083552"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rezultat5"
+                    app:layout_constraintVertical_bias="0.381" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/constraint1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/transparent">
+
+
+                <Button
+                    android:id="@+id/potvrdi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:backgroundTint="#083552"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="ПОТВРДИ"
+                    android:textColor="@color/white"
+                    app:cornerRadius="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.368"
+                    app:layout_constraintStart_toEndOf="@+id/ispravi"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.772" />
+
+                <Button
+                    android:id="@+id/ispravi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="88dp"
+                    android:backgroundTint="#083552"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="ИСПРАВИ"
+                    android:textColor="@color/white"
+                    app:cornerRadius="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.772" />
+
+
+
+                <EditText
+                    android:id="@+id/pitanje"
+                    android:layout_width="368dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:background="@drawable/edittext_background"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:text="Да ли су подаци исправно унети?"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.48"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

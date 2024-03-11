@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#087EDC</color>
+    <color name="my_button_color">#087EDC</color>
+    <color name="status_bar_color">#087EDD</color>
+    <color name="your_color"/>
+    <color name="custom_navigation_bar_color">#29B6F6</color>
+    <color name="custom_navigation_bar_color_login_screen">#F0d4eefa</color>
+    <color name="status_bar_color_login_screen">#B0087EDD</color>
+    <color name="status_bar_color2">#FFFFFF</color>
+    <color name="custom_navigation_bar_color_login_screen2">#FF103873</color>
+    <color name="custom_navigation_bar_color_login_screen3">#FFFFFF</color>
+    <color name="status_bar_color3">#FFFFFF</color>
+    <color name="blue2">#083552</color>
+    <color name="lista_header_footer">#083552</color>
+
+
+</resources>
