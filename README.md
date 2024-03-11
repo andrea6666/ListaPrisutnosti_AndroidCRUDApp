@@ -1,4 +1,4 @@
-## ListaPrisutnosti
+## ListaPrisutnosti Android CRUD App
 
 ### This Android Application is created with the aim of having meeting and lecture participants directly input their information into a Google Sheet, where records are kept of details such as name, surname, city, job position, phone number, and email. The application utilizes Google Sheets as its database.
 
