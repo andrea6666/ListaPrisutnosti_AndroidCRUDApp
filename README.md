@@ -3,7 +3,7 @@
 ### This Android Application is created with the aim of having meeting and lecture participants directly input their information into a Google Sheet, where records are kept of details such as name, surname, city, job position, phone number, and email. The application utilizes Google Sheets as its database.
 
 
-#### All required configuration is in [buld.gradle.kts](ListaPrisutnosti_AndroidCRUDApp/app/build.gradle.kts).
+#### All required configuration is in [buld.gradle.kts](ListaPrisutnosti/app/build.gradle.kts).
 #### All required code for Google Sheets is in [Extensions Apps Script](https://github.com/andrea6666/ListaPrisutnosti_AndroidCRUDApp/tree/main/Google%20Sheet%20Apps%20Script) folder, it is a Javascript code.
 #### Also You will need to create Firebase and to connect [Firebase](https://firebase.google.com) to android application. Users that are using login will have to be added manually into Firebase. 
 
